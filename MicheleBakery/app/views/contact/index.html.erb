@@ -1,9 +1,13 @@
 <div ng-app="Bakery-Email-List">
+
   <div ng-controller="SubscribersController">
     <h1>Contact</h1>
-    <p>Find me </p>
+    <h3>Join our mailing list!</h3>
+    <input type = "text" ng-model="emailInput" name ="email_subscriber[email]" placeholder="Email">
+    <input type = "text" ng-model="zipcodeInput" name ="email_subscriber[zipcode]" placeholder="Zipcode">
+    <button ng-click="makeEmail(emailInput,zipcodeInput)">Join!</button>
 
-    <p ng-repeat="subscriber in email_subscribers">{{subscriber.email}}</p>
+    <!-- <p ng-repeat="subscriber in email_subscribers">{{subscriber.email}}</p> -->
 
   </div>
 
