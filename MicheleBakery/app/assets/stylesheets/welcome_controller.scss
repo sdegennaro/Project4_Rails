@@ -1,8 +1,75 @@
 // Place all the styles related to the WelcomeController controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: 'IM Fell DW Pica', serif;
+}
+
 body{
   background-image: image-url('croissant-bakery-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: rgb(204, 204, 204);
+}
+
+#contact-body{
+  background-image: image-url('cupcakes-background.jpeg');
+}
+
+#about-body{
+  background-image: image-url('donut-with-hand.jpg');
+
+}
+
+.top-bar-container{
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(122, 122, 122);
+  margin: 0;
+  padding: 0 1em;
+  opacity: 0.8;
+  font-style: italic;
+}
+
+.top-bar-container h1{
+  display: inline-block;
+  margin-left: 5%;
+}
+
+.top-bar-container div{
+  position: absolute;
+  right: 10%;
+  margin: 0;
+  display: inline;
+  top: 40%;
+  width: 15em;
+  text-align: right;
+}
+
+.top-bar-container div *{
+  margin: 0 2%;
+}
+
+.main-container {
+  position: fixed;
+  top: 15%;
+  margin: 0 5%;
+  padding: 1% 2% 2%;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 5px;
+}
+
+.main-container input, .main-container button{
+  border: 1px solid grey;
+  padding: 0.5em;
+  font-family: 'IM Fell DW Pica', serif;
+}
+
+.main-container button{
+  font-size: 0.75em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
