@@ -1,4 +1,4 @@
-### DO FUN STUFF
+### MICHELE'S MARVELOUS MUNCHIES
 
 Michele's Marvelous Munchies is a website for Michele's Bakery. It allows users to sign up for Michele's newsletter and read more about her.
 
