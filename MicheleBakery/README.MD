@@ -1,28 +1,27 @@
-== README
+### DO FUN STUFF
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Michele's Marvelous Munchies is a website for Michele's Bakery. It allows users to sign up for Michele's newsletter and read more about her.
 
-Things you may want to cover:
+### TECHNOLOGY
+Javascript/JQuery
+Angular
+Ruby
+Rails
+CSS
+HTML
 
-* Ruby version
+### USER STORIES
+The user must be able to sign up for the email newsletter by entering email and zipcode.
+The user must be able to visit an about page featuring information about Michele.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### SCREENSHOTS
+![alt tag](http://i.imgur.com/r37Mkcv.jpg)
+![alt tag](http://i.imgur.com/btxfxXE.jpg)
+![alt tag](http://i.imgur.com/QiP1YNk.png)
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+### APPROACH
+This application requires limited functionality so my focus was more on striking images and consistent styling.
+
+### FUTURE FEATURES
+In the future, I would like to add a menu.
